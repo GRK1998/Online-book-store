@@ -6,6 +6,5 @@ var bookSchema = mongoose.Schema({
   image: String,
   price: Number
 });
-
 var Book = mongoose.model('Book',bookSchema);
 module.exports = Book;
